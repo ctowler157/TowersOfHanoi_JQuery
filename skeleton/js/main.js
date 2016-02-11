@@ -4,6 +4,6 @@ var HanoiGame = //...require appropriate file(look in /hanoi-core-solution)
 $(function () {
   var rootEl = $('.hanoi');
   var game = new HanoiGame();
-  new View(game,rootEl); 
+  new HanoiView(game,rootEl); 
 });
 
